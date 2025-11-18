@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('catatan', function (Blueprint $table) {
+        Schema::create('catatans', function (Blueprint $table) {
             $table->id()->autoIncrement();
             $table->string('judul');
             $table->text('isi');
